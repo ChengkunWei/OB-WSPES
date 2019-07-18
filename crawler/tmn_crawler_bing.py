@@ -26,7 +26,7 @@ class bing_crawler():
         self.max_thread=3
         self.count=0
         self.sql=AOLSql()
-        self.default_profile_path="/home/wu/.config/google-chrome"
+        self.default_profile_path="/home/wu/.config/google-chrome" # an empty profile
         self.user_profile_path='/home/wu/.config/user'
         self.browser=""
     
